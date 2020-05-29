@@ -1,0 +1,93 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+}
+
+body {
+	background-color: #221E1D;
+	font-size: 2rem;
+	text-align: center;
+	color: #221E1D;
+}
+
+/*Main*/
+
+#main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #ECEAE0;
+	margin: 30px;
+	margin-bottom: 0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding-bottom: 30px;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#look {
+	border-bottom: 2px solid #E9633B;
+	margin-bottom: 0;
+	font-weight: 600;
+	color: #2e0f05;
+}
+
+#image {
+	width: 60rem;
+	border-radius: 15px;
+}
+
+#img-caption {
+	font-size: 1.7rem;
+}
+
+#tribute-info p {
+	width: 700px;
+}
+
+h2 {
+	width: 160px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li {
+	text-align: left;
+	margin: 25px;
+}
+
+strong {
+	color: #E9633B;
+}
+
+
+/*Footer*/
+footer {
+	background-color: #453d3b;
+	padding: 5px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	color: #FFF;
+}
+
+h3 {
+	margin: 0;
+}
+
+a {
+	color: #3399ff;
+	text-decoration: none;
+	border-bottom: 3px solid #E9633B;
+}
